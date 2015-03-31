@@ -1,0 +1,37 @@
+/* ---------- base ---------- */
+body {
+	width:1000px;
+	line-height: 2;
+}
+/* ---------- layout ---------- */
+.scroll-menu {
+	position: fixed;
+	top: 50%;
+	right: 30px;
+	list-style-type: none;
+}
+
+.scroll-menu > li {
+	border: 1px solid #000;
+	width:20px;
+	text-align: center;
+}
+.horizon-menu {
+	width:100%;
+	padding-left:0px;
+}
+.horizon-menu > li{
+	float: left;
+	border: 1px solid #000;
+	width:100px;
+	list-style-type: none;
+	margin-right:5px;
+}
+/* ---------- state ---------- */
+.close {
+	display: none;	
+}
+.selected {
+	background-color: #fff;
+}
+/* ---------- theme ---------- */
